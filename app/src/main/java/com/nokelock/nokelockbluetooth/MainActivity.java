@@ -287,8 +287,8 @@ public class MainActivity extends MPermissionsActivity implements OnItemAdapterC
     @Override
     public void onItemClick(Object o, BluetoothDevice device) {
         Toast.makeText(this, device.getAddress(), Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, LockManageActivity.class);
-//        Intent intent = new Intent(this, Main2Activity.class);    //入库
+//        Intent intent = new Intent(this, LockManageActivity.class);
+        Intent intent = new Intent(this, Main2Activity.class);    //入库
         intent.putExtra("mac", device);
         startActivity(intent);
 

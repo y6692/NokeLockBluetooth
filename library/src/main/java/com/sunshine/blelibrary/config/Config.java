@@ -36,13 +36,12 @@ public class Config {
     /**
      * 圆形锁
      */
-    public static byte[] yx_key = {58,96,67,42,92,01,33,31,41,30,15,78,12,19,40,37};
-
-    public static byte[] password = {0x30, 0x30, 0x30, 0x30, 0x30, 0x30};
+//    public static byte[] yx_key = {58,96,67,42,92,01,33,31,41,30,15,78,12,19,40,37};
+//    public static byte[] password = {0x30, 0x30, 0x30, 0x30, 0x30, 0x30};
 
     public static byte[] key = {30,85,45,80,52,73,60,70,45,75,60,86,10,90,40,42};
-//    public static byte[] yx_key = {30,85,45,80,52,73,60,70,45,75,60,86,10,90,40,42};
-//    public static byte[] password = {0x32, 0x30, 0x31, 0x37, 0x31, 0x35};
+    public static byte[] yx_key = {30,85,45,80,52,73,60,70,45,75,60,86,10,90,40,42};
+    public static byte[] password = {0x32, 0x30, 0x31, 0x37, 0x31, 0x35};
 
 
     public static final String TOKEN_ACTION = "com.sunshine.blelibrary.config.token_action";
